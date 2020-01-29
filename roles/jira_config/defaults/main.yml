@@ -8,7 +8,7 @@ atl_catalina_opts_extra: >-
   -XX:+PrintAdaptiveSizePolicy
   -XX:+UseGCLogFileRotation
   -XX:+PrintTenuringDistribution
-   -XX:+ExplicitGCInvokesConcurrent
+  -XX:+ExplicitGCInvokesConcurrent
   -Dfile.encoding=UTF-8
 
 atl_tomcat_port: "8080"
